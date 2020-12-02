@@ -21,7 +21,9 @@
     font-style: normal;
 }
 body{
-    
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 .flex{
     display: flex;
@@ -101,4 +103,19 @@ body{
 }
 .presentation span{
     font-weight: bold;
+}
+.presentation button{
+    width: 15em;
+    height: 5em;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.presentation button span{
+    font-family: font2;
+    font-size: 1.50em;
+    font-weight: normal;
 }
