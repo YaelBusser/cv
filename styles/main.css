@@ -85,6 +85,10 @@ body{
         transform: rotate(360deg);
     }
 }
+.center-box{
+    margin-left: auto;
+    margin-right: auto;
+}
 .presentation{
     position: absolute;
     left: 0;
@@ -104,15 +108,18 @@ body{
 .presentation span{
     font-weight: bold;
 }
-.presentation button{
+.presentation a button{
     width: 15em;
     height: 5em;
     font-weight: normal;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5px 5px 5px 5px;
-    border: 1px solid black;
+    border: 0px solid black;
     cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.presentation a button:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
 }
 .presentation button span{
     font-family: font2;
