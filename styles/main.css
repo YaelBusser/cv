@@ -25,28 +25,30 @@ body{
 .header-box{
     position: relative;
     width: 10em;
-    margin-top: 5em;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5em;
     cursor: pointer;
+    transform: scale(1.25);
     transition: all 0.3s ease-out; /* Ici, on applique une animation à tous les éléments de box de durée 0.5 secondes de façon à rendre fluide l'animation dans ce conteneur */ 
 }
 .header-box:hover{
-    transform: scale(1.25); /* au passage de la souris, la taille des éléments de la box seront augmentés de 1,25 */
+    transform: scale(1.5); /* au passage de la souris, la taille des éléments de la box seront augmentés de 1,25 */
 }
 .header-box h1{  
     position: absolute;
-    margin-top: -60%;
-    margin-left: 1.5em;
     font-family: font1;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: white;
-    display: grid;
-    width: 7em;
-    height: 1em;
-    overflow: hidden;
+    margin-top: -60%;
+    margin-left: 1em;
 }
-.header-box h1 span{
+@keyframes title{
+    100%{
+        width: 100%;
+    }
+}
+/* .header-box h1 span{
     height: 1em;
     animation: melanger steps(10) 2s infinite;
 }
@@ -57,7 +59,7 @@ body{
     100%{
         transform: translateY(-10.1em);
     }
-}
+} */
 .cercle{
     width: 10.75em; /* Je ne met pas les mêmes dimentions afin d'avoir un effet oeuf sur le cercle lors de l'animation */
     height: 10em;
@@ -112,6 +114,7 @@ body{
     text-align: center;
     margin-top: 3em;
     font-size: 1.5em;
+    width: 100%;
 }
 .presentation p span{
     font-weight: bold;
