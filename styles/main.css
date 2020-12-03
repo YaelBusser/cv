@@ -48,18 +48,7 @@ body{
         width: 100%;
     }
 }
-/* .header-box h1 span{
-    height: 1em;
-    animation: melanger steps(10) 2s infinite;
-}
-@keyframes melanger{
-    0%{
-        transform: translateY(0em);
-    }
-    100%{
-        transform: translateY(-10.1em);
-    }
-} */
+
 .cercle{
     width: 10.75em; /* Je ne met pas les mêmes dimentions afin d'avoir un effet oeuf sur le cercle lors de l'animation */
     height: 10em;
@@ -142,4 +131,11 @@ body{
     font-family: font2;
     font-size: 1.50em;
     font-weight: normal;
+}
+.profil{
+    margin-top: 40em;
+    position: absolute;
+    width: 50em;
+    height: 10em;
+    border: 1px solid black;
 }
