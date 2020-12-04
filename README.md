@@ -35,10 +35,10 @@ notés :
 - Utilisation de pseudo-éléments : 1pt
 - Utilisation de transitions : 1pt
 - l’exhaustivité des informations prodiguées :
-   **nom, prénom, ville, etc…. : 2pts**
-   **expériences pro : 2pts**
-   **formation : 2pts**
-   **centres d’intérêts : 2pts**
+   - **nom, prénom, ville, etc…. : 2pts**
+   - **expériences pro : 2pts**
+   - **formation : 2pts**
+   - **centres d’intérêts : 2pts**
 - régularité des commits : 2pts
 - validation W3C du HTML : 2pts
 - validation W3C du CSS : 2pts
