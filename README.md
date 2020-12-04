@@ -31,17 +31,17 @@ par un étudiant d’un code écrit par un professionnel, et que toute tentative
 soldée par un beau zéro qui arborera votre bulletin de note !
 Maintenant que les choses sont claires sur ce point, voici les différents éléments qui seront
 notés :
-● La propreté du code (indentation, commentaires, etc…) : 2pts
-● Utilisation de pseudo-éléments : 1pt
-● Utilisation de transitions : 1pt
-● l’exhaustivité des informations prodiguées :
-○ nom, prénom, ville, etc…. : 2pts
-○ expériences pro : 2pts
-○ formation : 2pts
-○ centres d’intérêts : 2pts
-● régularité des commits : 2pts
-● validation W3C du HTML : 2pts
-● validation W3C du CSS : 2pts
-● rédaction du mail de retour : 2pts
-● organisation du code : 2pts
+- La propreté du code (indentation, commentaires, etc…) : 2pts
+- Utilisation de pseudo-éléments : 1pt
+- Utilisation de transitions : 1pt
+- l’exhaustivité des informations prodiguées :
+   **nom, prénom, ville, etc…. : 2pts**
+   **expériences pro : 2pts**
+   **formation : 2pts**
+   **centres d’intérêts : 2pts**
+- régularité des commits : 2pts
+- validation W3C du HTML : 2pts
+- validation W3C du CSS : 2pts
+- rédaction du mail de retour : 2pts
+- organisation du code : 2pts
 Vous disposez de 2 points bonus, la note sera rendue sur 20 !
