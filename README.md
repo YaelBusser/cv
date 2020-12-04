@@ -33,6 +33,7 @@ Maintenant que les choses sont claires sur ce point, voici les différents élé
 notés :
 - La propreté du code (indentation, commentaires, etc…) : 2pts
 - Utilisation de pseudo-éléments : 1pt
+
 - Utilisation de transitions : 1pt
 - l’exhaustivité des informations prodiguées :
    - **nom, prénom, ville, etc…. : 2pts**
