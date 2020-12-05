@@ -152,12 +152,6 @@ body{
 .positionBoutonCv{
     margin-top: 1em;
 }
-.profil{
-    margin-top: 15em;
-    width: 50em;
-    height: 10em;
-    border: 1px solid black;
-}
 footer{
     display: inline-block;
     position: absolute;
@@ -209,4 +203,26 @@ footer p{
     .positionBoutonCv{
         margin-top: -1em;
     }
+}
+.profil{
+    margin-top: 15em;
+    width: 50em;
+    border-radius: 5px 5px 5px 5px;
+    font-family: font2;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    box-shadow: 0 0.2em 0.7em 0.1em #cccccc;
+}
+.profil h2{
+    font-family: font1;
+    font-size: 2em;
+}
+.profil a{
+    text-decoration: none;
+    color: #37E1CF;
+}
+.name-profil{
+    font-weight: bold;
 }
