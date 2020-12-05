@@ -204,25 +204,41 @@ footer p{
         margin-top: -1em;
     }
 }
-.profil{
-    margin-top: 15em;
-    width: 50em;
+.container1{
+    margin-top: 5em;
+    width: 60%;
     border-radius: 5px 5px 5px 5px;
-    font-family: font2;
-    text-align: justify;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
     box-shadow: 0 0.2em 0.7em 0.1em #cccccc;
 }
+.profil{
+    width: 100%;
+    font-family: font2;
+    text-align: justify;
+}
 .profil h2{
+    margin-top: 1em;
     font-family: font1;
     font-size: 2em;
 }
 .profil a{
     text-decoration: none;
-    color: #37E1CF;
+    font-weight: bold;
+    color: black;
 }
 .name-profil{
     font-weight: bold;
+}
+.skills{
+    width: 100%;
+    margin-left: 10em;
+    font-family: font2;
+    text-align: justify;
+}
+.skills h2{
+    margin-top: 1em;
+    font-family: font1;
+    font-size: 2em;
 }
